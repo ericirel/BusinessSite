@@ -1,1 +1,65 @@
+body{
+  max-width: 90%
+}
+
 /*about page*/
+
+
+/*nav*/
+.nav-bar{
+  max-width:
+}
+.nav-bar ul{
+    text-align: center;
+    background-color: #eaeaea;
+}
+.nav-bar ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 30px;
+}
+
+/*social media*/
+.social-media li{
+  list-style: none;
+  display: inline;
+}
+.social-media li a img{
+  width: 5%;
+}
+.social-media{
+  border: 1px black solid;
+  width: 23%;
+  display: inline-block;
+}
+/*contact button */
+.button{
+  margin: auto 0;
+  float: left;
+   border: 1px black solid;
+     width: 10%;
+  display: inline-block;
+}
+
+/*hours*/
+.hours{
+  margin: auto 0;
+  float: left;
+   border: 1px black solid;
+   width: 35%;
+  display: inline-block;
+}
+
+/*copyright*/
+.copy-right p{
+  border: 1px black solid;
+/*  padding-right: 30px;*/
+width: 15%;
+  display: inline-block;
+  float: left;
+}
+
+/*footer*/
+footer{
+  background-color: #eaeaea;
+}
