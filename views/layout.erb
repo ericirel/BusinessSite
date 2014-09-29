@@ -6,8 +6,8 @@
   <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
-<nav>
-  <ul id="nav-bar">
+<nav class="nav-bar">
+  <ul>
     <li>
       Home
     </li>
@@ -24,7 +24,38 @@
 </nav>
 
 <footer>
-  <ul>
+  <div class="hours">
+    <p>
+      HOURS Monday - Friday: 6am - 9pm<br>
+      Saturday &amp; Sunday 8am - 11pm
+    </p>
+  </div>
+
+  <div class="copy-right">
+    <p>
+      Business Site &copy;
+    </p>
+  </div>
+
+  <div class="social-media">
+    <ul>
+      <li>
+        <a href="#"><img src="https://raw.githubusercontent.com/danleech/simple-icons/master/icons/facebook/facebook-1024-black.png"></a>
+      </li>
+      <li>
+        <a href="#"><img src="https://raw.githubusercontent.com/danleech/simple-icons/master/icons/twitter/twitter-1024-black.png"></a>
+      </li>
+      <li>
+        <a href="#"><img src="https://raw.githubusercontent.com/danleech/simple-icons/master/icons/instagram/instagram-1024-black.png"></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="button">
+    <button type="button">Contact Info</button>
+  </div>
+
+</footer>
 
 <%= yield %>
 </body>
