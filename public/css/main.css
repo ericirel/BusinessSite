@@ -1,1 +1,9 @@
 /*about page*/
+.owner_img {
+  width: 30%;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
