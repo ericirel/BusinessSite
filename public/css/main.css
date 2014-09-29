@@ -23,17 +23,13 @@
 body{
   max-width: 90%
 }
-
-/*about page*/
-
-
 /*nav*/
 .nav-bar{
   max-width:
 }
 .nav-bar ul{
     text-align: center;
-    background-color: #eaeaea;
+    background-color: #eaeaea  ;
 }
 .nav-bar ul li{
   list-style: none;
@@ -58,8 +54,8 @@ body{
 .button{
   margin: auto 0;
   float: left;
-   border: 1px black solid;
-     width: 10%;
+  border: 1px black solid;
+    width: 10%;
   display: inline-block;
 }
 
@@ -67,8 +63,8 @@ body{
 .hours{
   margin: auto 0;
   float: left;
-   border: 1px black solid;
-   width: 35%;
+  border: 1px black solid;
+  width: 35%;
   display: inline-block;
 }
 
@@ -82,6 +78,52 @@ width: 15%;
 }
 
 /*footer*/
-footer{
+footer {
   background-color: #eaeaea;
+}
+
+/*about page*/
+.owner_img {
+  width: 30%;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.column {
+  display: inline-block;
+  width: 45%;
+}
+
+.img {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+}
+/*about page*/
+.logo {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.column {
+  display: inline-block;
+  width: 45%;
+}
+
+.img {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
