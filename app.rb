@@ -18,24 +18,25 @@ get '/contact' do
 end
 
 post '/send_mail' do
-
+  body = "Name:" + params[:name] + " Comment:" + params[:comments]
   m = Mandrill::API.new
   message = {  
    :subject=> "Form Submit: Bodacious Bodega",  
    :from_name=> "Web Automated",  
-   :text=>"Automated",  
+   :text=> params[:name] + " " + params[:comments],  
 
    :to=>[
    	   {  
       :email=> params[:email],  
       :name=> params[:name],
-      :comment => params[:comment]
+      # :comment=> params[:comments]
       }
    ],  
-   :html=>"<html><h6></h6></html>",  
+   :html=>"<html>" + body + "</html>",  
    :from_email=>"BodaciousBodega@gmail.com"  
   }  
   sending = m.messages.send message  
   puts "params are" + params.inspect
+  redirect './confirmation'
 
 end
