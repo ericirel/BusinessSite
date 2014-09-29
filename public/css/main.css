@@ -7,3 +7,15 @@
   width: 900px;
   margin: 0 auto;
 }
+
+.column {
+  display: inline-block;
+  width: 45%;
+}
+
+.img {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+}
