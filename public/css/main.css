@@ -1,11 +1,11 @@
 *{
-  font-family: sans-serif;
+  font-family: 'EB Garamond', sans-serif;
   font-weight: lighter;
 }
 
 body{
   max-width: 90%;
-
+  padding-bottom: 70px;
 }
 /*nav*/
 .nav-bar{
@@ -72,24 +72,37 @@ footer {
   display: inline-block;
   text-align: center;
   height: 100%;
-  margin-top: -5px;
+  margin-top: -1px;
 }
 
 .contact{
   width: 10%;
   display: inline-block;
   text-align: center;
-  vertical-align: middle;
-  margin-top: -45px;
+  margin-top: -12px;
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+  padding: 6px 12px;
+  border-radius: 4px;
+  line-height: 1.428571429;
+  height: 75%;
+  border: 1px solid;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.contact a:visited{
+    text-decoration: none;
+    color: #fff;
+}
 
-/*border: 1px black solid;
-*/}
-
-a{
+.nav-buttons{
   text-decoration: none;
 }
 
-a:hover{
+.nav-buttons:hover{
   border-top: 2px solid black;
   padding-top: 5px;
 }
