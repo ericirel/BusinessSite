@@ -2,12 +2,7 @@ $(document).ready(function(){
 
   $(".category").click(function(){
     $(this).find(".product").toggle();
+    $(".main_text").toggle();
   });
-
-  // $(".contact").mouseover(function(){
-  //   $(".contact").animate({height:"100px"});
-  // })
-
-
 
 });
