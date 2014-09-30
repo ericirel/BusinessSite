@@ -4,7 +4,7 @@
 
     <div class="category">
 
-      <a href="#" class="category_name"><%= category.name %></a>
+      <a href="#" class="category_name"><%= category.name %> <span class="plus"><i class="fa fa-angle-double-right"></i></span></a>
 
       <% category.products.each do |product| %>
 
@@ -15,12 +15,16 @@
             <div><%= product.description %></div>
           </div>
 
-          <div class="column_left"><img src="<%= product.image_url %>" class="image"></div>
+          <div class="column_left">
+          <img src="<%= product.image_url %>" class="image">
+          </div>
         </div>
       <% end %>
     </div>
-  
   <% end %>
+   <p class="column_right main_text">Our Bodega carries a variety of groceries, prepared food from the deli and specialty products. We stock our Bodega daily with an ultimate selection of fresh produce, cold cuts and cheese, groceries, as well as hundreds of other fantastic specialty food items.</p>
   </ul>
+
+
 </div>
   
