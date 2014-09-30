@@ -36,11 +36,16 @@ textarea{
   background-color: #428bca;
   color: white;
 }
+
 #submit{
   width: 10%;
   font-weight: 400;
   font-size: 16px;
   color: #000;
+}
+
+#some-rock-salt{
+  font-family: 'Rock Salt';
 }
 
 
