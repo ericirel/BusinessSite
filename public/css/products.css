@@ -6,8 +6,7 @@ li {
   /*background-color: #eaeaea;*/
 }
 
-.category_name {
-}
+
 
 a {
   text-decoration: none;
@@ -18,15 +17,26 @@ a {
 }
 
 .image {
-  width: 30%;
+  width: 40%;
 }
 
 .product {
   display: none;
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
 }
 
 .product_name {
   font-weight: bold;
+}
+
+.column_left {
+  display: inline-block;
+  width: 50%;
+}
+
+.column_right {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
 }

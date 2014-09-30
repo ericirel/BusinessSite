@@ -1,11 +1,11 @@
 cheese = Product.new
 cheese.name = "Cheese"
-cheese.description = "We currently carry Swiss, American, gouda and pepper jack."
+cheese.description = "We currently carry Swiss, American, Gouda and Pepper Jack."
 cheese.image_url = "images/cheese.jpg"
 
 cold_cuts = Product.new
 cold_cuts.name = "Cold Cuts"
-cold_cuts.description = "We use Boar's Head products, which include ham, turkey, salame, and bologna."
+cold_cuts.description = "We use Boar's Head products, which include Ham, Turkey, Salame, and Bologna."
 cold_cuts.image_url = "images/cold_cuts.jpg"
 
 veggies = Product.new
