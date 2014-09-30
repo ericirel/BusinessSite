@@ -3,12 +3,10 @@ li {
 }
 
 .side_nav {
-  background-color: #eaeaea;
+  /*background-color: #eaeaea;*/
 }
 
 .category_name {
-  font-size: 25px;
-  font-weight: bold;
 }
 
 a {
@@ -30,7 +28,5 @@ a {
 }
 
 .product_name {
-  font-size: 20px;
   font-weight: bold;
-  color: tomato;
 }

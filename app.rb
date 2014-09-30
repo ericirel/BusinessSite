@@ -18,6 +18,7 @@ get '/about' do
 end
 
 get '/products' do
+  # making @categories an instance variable makes it available inside erb file.
   @categories = Category.all
   erb :products
 end

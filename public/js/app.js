@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
   $(".category_name").mouseenter(function(){
-    $(this).css("background-color","yellow");
+    $(this).css("background-color","rgba(255, 255, 0, .1)");
   });
 
   $(".category_name").mouseleave(function(){
-    $(this).css("background-color","#eaeaea");
+    $(this).css("background-color","#fff");
   });
 
   $(".category").click(function(){

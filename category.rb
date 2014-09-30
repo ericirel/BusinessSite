@@ -1,6 +1,8 @@
 class Category
+  # products only need to be readable
   attr_reader :products
   attr_accessor :name
+  
   # use @@ because it is a class variable
   # a class variable belongs to the entire class, not the instance.
   @@categories = []
