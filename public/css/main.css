@@ -4,7 +4,7 @@
 }
 
 
-html { 
+html {
   background: url(https://s3.amazonaws.com/uploads.hipchat.com/103327/1187384/gfopnL6cPhXWMyD/grocery-73.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,6 +23,7 @@ body{
   max-width: 90%;
   max-height: 30%;
   background-color: rgba(119, 110, 105,.85);
+  border-radius: 4px;
 
 }
 .nav-bar ul{
