@@ -1,27 +1,26 @@
+<div class="wrapper container">
+  <ul class="side_nav">
+  <% @categories.each do |category| %>
 
-<ul class="side_nav">
-<% @categories.each do |category| %>
+    <div class="category">
 
-  <div class="category">
+      <a href="#" class="category_name"><%= category.name %></a>
 
-    <a href="#" class="category_name"><%= category.name %></a>
+      <% category.products.each do |product| %>
 
-    <% category.products.each do |product| %>
+        <div class="product">
 
-      <div class="product">
-      
-        <div class="column_right">
-          <div class="product_name"><%= product.name %></div>
-          <div><%= product.description %></div>
+          <div class="column_right">
+            <div class="product_name"><%= product.name %></div>
+            <div><%= product.description %></div>
+          </div>
+
+          <div class="column_left"><img src="<%= product.image_url %>" class="image"></div>
         </div>
-
-        <div class="column_left"><img src="<%= product.image_url %>" class="image"></div>
-      </div>
-    <% end %>
-
-  </div>
-
-<% end %>
-</ul>
-
+      <% end %>
+    </div>
+  
+  <% end %>
+  </ul>
+</div>
   

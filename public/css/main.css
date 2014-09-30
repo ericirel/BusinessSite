@@ -3,10 +3,20 @@
   font-weight: lighter;
 }
 
+html { 
+  background: url(https://s3.amazonaws.com/uploads.hipchat.com/103327/1187384/oih7FJ7Jk3M5KEN/grocery80.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body{
   max-width: 90%;
   padding-bottom: 70px;
 }
+
+
 /*nav*/
 .nav-bar{
   max-width:
@@ -14,6 +24,13 @@ body{
 .nav-bar ul{
     text-align: center;
     background-color: #eaeaea  ;
+}
+
+.nav-bar ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
 }
 .nav-bar ul li{
   list-style: none;
