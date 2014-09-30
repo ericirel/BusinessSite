@@ -32,7 +32,7 @@ get '/confirmation' do
 end
 
 post '/send_mail' do
-  body = "Name:" + params[:name] + " Comment:" + params[:comments]
+  body = "Name: " + params[:name] + " Email:" + params[:email] + " Comment:" + params[:comments]
   m = Mandrill::API.new
   message = {
    :subject=> "Form Submit: Bodacious Bodega",
@@ -41,8 +41,8 @@ post '/send_mail' do
 
    :to=>[
    	   {
-      :email=> params[:email],
-      :name=> params[:name],
+      :email=> "angas.reid@gmail.com",  
+      :name=> "Angas @ BodaciousBodega"
       # :comment=> params[:comments]
       }
    ],
