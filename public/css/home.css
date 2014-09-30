@@ -7,10 +7,11 @@ body{
   width: 31.3%;
   float: left;
   margin: 1%;
+  height: 2em;
+  background-color: #fafafa
 }
 
-img{
-  border-radius: 50%;
-  max-width: 50%;
-  padding: 10;
+#name{
+  text-align: center;
+  font-weight: 500;
 }
