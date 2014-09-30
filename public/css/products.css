@@ -51,5 +51,13 @@ li {
 .main_text {
   color: #fff;
   width: 40%;
-  overflow:auto;
+  float: left;
+}
+
+.side_nav {
+float:left;
+}
+
+.colText {
+float:left;
 }

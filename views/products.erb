@@ -1,5 +1,6 @@
 <div class="wrapper container">
-  <ul class="side_nav">
+  <h2 id="some-rock-salt">Our Products</h2>
+  <ul class="side_nav wapper">
   <% @categories.each do |category| %>
 
     <div class="category">
@@ -16,16 +17,17 @@
           </div>
 
           <div class="column_left">
-          <img src="<%= product.image_url %>" class="image">
+            <img src="<%= product.image_url %>" class="image">
           </div>
         </div>
       <% end %>
     </div>
   <% end %>
+  </ul>
   <div="colText">
-</ul>
-   <p class="column_right main_text">Our Bodega carries a variety of groceries, prepared food from the deli and specialty products. We stock our Bodega daily with an ultimate selection of fresh produce, cold cuts and cheese, groceries, as well as hundreds of other fantastic specialty food items.</p>
-</div>
+
+     <p class="column_right main_text">Our Bodega carries a variety of groceries, prepared food from the deli and specialty products. We stock our Bodega daily with an ultimate selection of fresh produce, cold cuts and cheese, groceries, as well as hundreds of other fantastic specialty food items.</p>
+  </div>
 
 
 </div>
