@@ -1,3 +1,7 @@
+*{
+  font-family: sans-serif;
+  font-weight: lighter;
+}
 body{
   max-width: 90%
 }
@@ -69,10 +73,19 @@ width: 25%;
 .contact{
 width: 20%;
   display: inline-block;
-  
+
     text-align: center;
     vertical-align: middle;
     margin-top: -10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  border-top: 2px solid black;
+  padding-top: 5px;
 }
 
 
