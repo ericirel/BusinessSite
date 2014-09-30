@@ -26,11 +26,6 @@ deli.add_products(veggies)
 deli.add_products(bread)
 #------------------
 
-drinks = Product.new
-drinks.name = "Drinks"
-drinks.description = "Large collection of sodas, cold beers, juice and milk."
-drinks.image_url = "images/drinks.jpg"
-
 can_goods = Product.new
 can_goods.name = "Canned Products"
 can_goods.description = "Soups, veggies, beans, tomato sauce and tuna."
@@ -46,12 +41,17 @@ candy.name = "Candy"
 candy.description = "Chocolates, gummies, gum and mints."
 candy.image_url = "images/candy.jpg"
 
+drinks = Product.new
+drinks.name = "Drinks"
+drinks.description = "Large collection of sodas, cold beers, juice and milk."
+drinks.image_url = "images/drinks.jpg"
+
 groceries = Category.new
 groceries.name = "Groceries"
-groceries.add_products(drinks)
 groceries.add_products(can_goods)
 groceries.add_products(chips)
 groceries.add_products(candy)
+groceries.add_products(drinks)
 # ----------------------------------
 
 toilet_paper = Product.new

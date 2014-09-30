@@ -11,6 +11,7 @@
 .column {
   display: inline-block;
   width: 45%;
+  vertical-align: top;
 }
 
 .img {
@@ -20,4 +21,11 @@
   width: 150px;
   height:150px;
   border-radius: 50%;
+}
+
+.container {
+  color: white;
+  background-color: rgba(00,00,00,.65);
+  border-radius: 4px;
+  padding: 20px;
 }
