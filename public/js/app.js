@@ -4,6 +4,10 @@ $(document).ready(function(){
     $(this).find(".product").toggle();
   });
 
+  // $(".contact").mouseover(function(){
+  //   $(".contact").animate({height:"100px"});
+  // })
+
 
 
 });

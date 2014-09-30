@@ -48,5 +48,9 @@ textarea{
   font-family: 'Rock Salt';
 }
 
+.colText {
+  float: left;
+  overflow:auto
+}
 
 
