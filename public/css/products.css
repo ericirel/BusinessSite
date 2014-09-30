@@ -2,9 +2,20 @@ li {
   list-style: none;
 }
 
+.plus {
+  padding-left: 10px;
+}
 
-a {
+.category a {
   text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  padding:10px;
+}
+
+.category a:hover {
+  background-color: rgba(119, 110, 105, .5);
 }
 
 .category {
@@ -35,4 +46,9 @@ a {
   width: 45%;
   display: inline-block;
   vertical-align: top;
+}
+
+.main_text {
+  color: #fff;
+  width: 40%;
 }
