@@ -43,5 +43,8 @@ textarea{
   color: #000;
 }
 
-
+.colText {
+  float: left;
+  overflow:auto
+}
 
