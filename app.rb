@@ -27,6 +27,10 @@ get '/contact' do
   erb :contact
 end
 
+get '/confirmation' do
+  erb :confirmation
+end
+
 post '/send_mail' do
   body = "Name:" + params[:name] + " Comment:" + params[:comments]
   m = Mandrill::API.new
