@@ -1,7 +1,22 @@
-<br>
 
-<ul>
-<% @categories.each do |item| %>
-  <li><a href=""><%= item %></a></li>
+<ul class="side_nav">
+<% @categories.each do |category| %>
+
+  <div class="category">
+
+    <a href="#" class="category_name"><%= category.name %></a>
+
+    <% category.products.each do |product| %>
+      <div class="product">
+        <li class="product_name"><%= product.name %></li>
+        <li><%= product.description %></li>
+        <li><img src="<%= product.image_url %>" class="image"></li>
+      </div>
+    <% end %>
+
+  </div>
+
 <% end %>
 </ul>
+
+  

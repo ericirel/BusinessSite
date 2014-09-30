@@ -1,1 +1,36 @@
+li {
+  list-style: none;
+}
 
+.side_nav {
+  background-color: #eaeaea;
+}
+
+.category_name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 30%;
+}
+
+.product {
+  display: none;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.product_name {
+  font-size: 20px;
+  font-weight: bold;
+  color: tomato;
+}

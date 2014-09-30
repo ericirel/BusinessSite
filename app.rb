@@ -1,11 +1,11 @@
 require 'sinatra'
 require 'mandrill'
 
-require 'category'
-require 'product'
+require './category'
+require './product'
 
 # creates categories with products
-load 'seed.rb'
+load './seed.rb'
 
 
 
