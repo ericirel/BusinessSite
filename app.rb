@@ -1,6 +1,14 @@
 require 'sinatra'
 require 'mandrill'
 
+require 'category'
+require 'product'
+
+# creates categories with products
+load 'seed.rb'
+
+
+
 get '/' do
   erb :home
 end
@@ -10,6 +18,7 @@ get '/about' do
 end
 
 get '/products' do
+  @categories = Category.all
   erb :products
 end
 
@@ -20,22 +29,22 @@ end
 post '/send_mail' do
   body = "Name:" + params[:name] + " Comment:" + params[:comments]
   m = Mandrill::API.new
-  message = {  
-   :subject=> "Form Submit: Bodacious Bodega",  
-   :from_name=> "Web Automated",  
-   :text=> params[:name] + " " + params[:comments],  
+  message = {
+   :subject=> "Form Submit: Bodacious Bodega",
+   :from_name=> "Web Automated",
+   :text=> params[:name] + " " + params[:comments],
 
    :to=>[
-   	   {  
-      :email=> params[:email],  
+   	   {
+      :email=> params[:email],
       :name=> params[:name],
       # :comment=> params[:comments]
       }
-   ],  
-   :html=>"<html>" + body + "</html>",  
-   :from_email=>"BodaciousBodega@gmail.com"  
-  }  
-  sending = m.messages.send message  
+   ],
+   :html=>"<html>" + body + "</html>",
+   :from_email=>"BodaciousBodega@gmail.com"
+  }
+  sending = m.messages.send message
   puts "params are" + params.inspect
   redirect './confirmation'
 
