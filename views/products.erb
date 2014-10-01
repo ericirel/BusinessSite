@@ -1,11 +1,11 @@
-<div class="wrapper container">
+<div class="wrapper">
   <h2 id="some-rock-salt">Our Products</h2>
   <ul class="side_nav wapper">
   <% @categories.each do |category| %>
 
     <div class="category">
 
-      <a href="#" class="category_name"><%= category.name %> <span class="plus"><i class="fa fa-angle-double-right"></i></span></a>
+      <a href="#"><%= category.name %> <span class="plus"><i class="fa fa-angle-double-right"></i></span></a>
 
       <% category.products.each do |product| %>
 
@@ -24,11 +24,7 @@
     </div>
   <% end %>
   </ul>
-  <div="colText">
-
-     <p class="column_right main_text">Our Bodega carries a variety of groceries, prepared food from the deli and specialty products. We stock our Bodega daily with an ultimate selection of fresh produce, cold cuts and cheese, groceries, as well as hundreds of other fantastic specialty food items.</p>
-  </div>
-
-
+  
+  <p class="column_right main_text">Our Bodega carries a variety of groceries, prepared food from the deli and specialty products. We stock our Bodega daily with an ultimate selection of fresh produce, cold cuts and cheese, groceries, as well as hundreds of other fantastic specialty food items.</p>
 </div>
   

@@ -5,9 +5,10 @@
   padding-right: 20%;
 }
 
-form{
-  padding-top: 10px;
+form, .p_text{
+  padding: 20px;
 }
+
 input{
   height: 30px;
   padding: 6px, 12px;
@@ -44,14 +45,9 @@ textarea{
   color: #000;
 }
 
-#some-rock-salt{
-  font-family: 'Rock Salt';
-}
-
 .colText {
   float: left;
   overflow: auto;
-
 }
 
 

@@ -1,13 +1,4 @@
 /*about page*/
-.owner_img {
-  width: 30%;
-}
-
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .column {
   display: inline-block;
   width: 45%;
@@ -23,24 +14,17 @@
   border-radius: 50%;
 }
 
-.container {
-  color: white;
-  background-color: rgba(00,00,00,.75);
-  border-radius: 4px;
-  padding: 20px;
-  overflow: auto;
-}
-
-#some-rock-salt{
-  font-family: 'Rock Salt';
-}
-
 h2 {
   text-align: center;
 }
 
 .about {
   padding-bottom: 0px;
+}
+
+.about_text {
+  padding: 20px;
+  font-size: 18px;
 }
 
 
