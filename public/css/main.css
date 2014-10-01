@@ -101,19 +101,25 @@ footer {
   width: 10%;
   display: inline-block;
   text-align: center;
-  margin-top: -12px;
+  margin-bottom: 1px;
   color: #fff;
   background-color: #428bca;
   border-color: #357ebd;
-  padding: 6px 12px;
+  padding: 0px 6px 25px 10px;
   border-radius: 4px;
   line-height: 1.428571429;
-  height: 75%;
+  height: 50%;
   border: 1px solid;
   white-space: nowrap;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
+}
+.contact p{
+  padding-bottom: 5px;
+}
+.contact p a{
+  text-decoration: none;
 }
 .contact a:visited{
     text-decoration: none;
