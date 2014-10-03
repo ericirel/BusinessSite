@@ -4,6 +4,9 @@ require 'mandrill'
 require './category'
 require './product'
 
+configure(:development){set :
+database, "sqlite:///blog.sqlite3"}
+
 # creates categories with products
 load './seed.rb'
 
